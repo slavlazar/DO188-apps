@@ -2,7 +2,7 @@ FROM registry.ocp4.example.com:8443/redhattraining/podman-certificate-generator 
 
 
 
-FROM registry.ocp4.example.com:8443/ubi8/ubi
+FROM registry.access.redhat.com/ubi8/ubi
 
 RUN dnf module install -y nodejs:16 && \
     groupadd -r student && useradd -r -m -g student student

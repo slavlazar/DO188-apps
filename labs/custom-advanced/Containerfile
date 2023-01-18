@@ -1,4 +1,4 @@
-FROM registry.ocp4.example.com:8443/ubi8/python-38:1-96
+FROM registry.access.redhat.com/ubi8/python-38:1-96
 USER default
 WORKDIR /redhat
 COPY /app/numbers.txt materials/numbers.txt

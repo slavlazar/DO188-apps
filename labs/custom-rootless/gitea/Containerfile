@@ -1,4 +1,4 @@
-FROM registry.ocp4.example.com:8443/ubi9/ubi:9.0.0-1468
+FROM registry.access.redhat.com/ubi9/ubi:9.0.0-1468
 
 ENV VERSION="1.16.8" \
     GITEA_WORK_DIR=/var/lib/gitea/ \
